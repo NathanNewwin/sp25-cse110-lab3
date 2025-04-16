@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Meeting notes for Death Star Third Check-In">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Death Star First Brainstorm</title>
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <header>
+    <h1>Death Star Third Check-In</h1>
+    <h2>Topic: Check-In</h2>
+    <h3>Date: April 15, 2025</h3>
+    <nav>
+      <ul>
+        <li><a href="#attendance">Attendance</a></li>
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#unfinished">Unfinished Business</a></li>
+        <li><a href="#new">New Business</a></li>
+        <li><a href="#misc">Miscellaneous</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#form">Feedback Form</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="attendance">
+      <h2>Attendance</h2>
+      <ul>
+        <li>Emperor Powellpatine</li>
+        <li>Darth Vader</li>
+        <li>Grand Moff Tarkin</li>
+        <li>Galen Erso</li>
+        <li>Director Krennic</li>
+        <li>Misc Generals</li>
+      </ul>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <ol>
+        <li>Check production of Death Star</li>
+        <li>Ensure kyber crystals are collected</li>
+        <li>Start to assign stations for troops</li>
+      </ol>
+    </section>
+
+    <section id="unfinished">
+      <h2>Unfinished Business</h2>
+      <p><strong>Reminder:</strong> Send clones from Kamino to the Death Star.</p>
+    </section>
+
+    <section id="new">
+      <h2>New Business</h2>
+      <p><div><em>Vader </em><span>suggested</span> that we include a</div><div>trash compactor and</div><div>doors too low for our storm troopers</div></p>
+    </section>
+
+    <section id="misc">
+      <h2>Miscellaneous</h2>
+      <p><b>Note:</b> Need to pick out some mouse droids</p>
+      <p>Everyone agreed that green would be the laser color.<br>Next check-in meeting is on <i>April 20</i>.</p>
+      <hr>
+    </section>
+
+    <section id="media">
+      <h2>Media</h2>
+      <h3>Diagrams/Charts</h3>
+      <img src="assets/DeathStarPlans.png" alt="Death Star Schematics" width="400" height="400">
+      <img src="assets/Starchart.png" alt="System Starchart" width="600" height="400">
+
+      <h3>Audio Recording</h3>
+      <audio controls>
+        <source src="assets/Meeting Audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <h3>Video Recording</h3>
+      <video width="320" height="240" controls>
+        <source src="assets/Meeting Video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <details>
+        <summary>Click here to view summary of the meeting</summary>
+        <p>The team check-in on the production of the Death Star and one general was force choked.</p>
+      </details>
+    </section>
+
+    <section id="form">
+      <h2>Feedback Form</h2>
+      <form>
+        <fieldset>
+          <legend>Submit your feedback</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label for="date">Date of Meeting:</label>
+          <input type="date" id="date" name="date"><br><br>
+
+          <label for="role">Your Role:</label>
+          <select id="role" name="role">
+            <option value="lor">Lord</option>
+            <option value="dir">Director</option>
+            <option value="gen">General</option>
+            <option value="dev">Designer</option>
+            <option value="otr">Other</option>
+          </select><br><br>
+
+          <label>Did you find this meeting helpful?</label><br>
+          <input type="radio" id="yes" name="helpful" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="helpful" value="no">
+          <label for="no">No</label><br><br>
+
+          <label for="topics">Topics you'd like covered:</label><br>
+          <input list="topic-list" id="topics" name="topics">
+          <datalist id="topic-list">
+            <option value="Production">
+            <option value="Emperial Roles">
+            <option value="Outcomes and Goals">
+          </datalist><br><br>
+
+          <label for="comments">Additional Comments:</label><br>
+          <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+          <input type="checkbox" id="followup" name="followup">
+          <label for="followup">I would like to be contacted for a follow-up.</label><br><br>
+
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Meeting Notes &copy; 2025 Galactic Empire</p>
+  </footer>
+</body>
+</html>
