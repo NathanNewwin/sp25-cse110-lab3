@@ -199,3 +199,21 @@ ul > li {
 h2 ~ p {
     color: rgb(60, 122, 255);
 }
+
+label + input {
+    border: 1px solid #888;
+}
+
+p.note {
+    font-size: 1.5rem;
+    color: darkred;
+}
+
+form:has(input[type="checkbox"]:checked) {
+    background-color: #e0ffe0;
+}
+
+nav ul li a {
+    color: grey
+}
+  
