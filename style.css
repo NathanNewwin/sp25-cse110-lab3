@@ -1,0 +1,201 @@
+:root{
+    --main-bg-color: #f0f0f0;
+    --main-text-color: rgb(0, 0, 0);
+}
+/* Custom Font */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('assets/Starjedi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+h1{
+    font-family: 'Star Jedi', 'Orbitron', sans-serif;
+    font-size: 2.5rem;
+    color: var(--main-text-color);
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(146, 101, 197);
+}
+
+h2{
+    font-family: 'Star Jedi', 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    color: var(--main-text-color);
+    text-align: center;
+    margin-top: 20px;
+    background-color: #cd7cff;
+}
+
+h3{
+    font-family: 'Star Jedi', 'Orbitron', sans-serif;
+    font-size: 1.25rem;
+    color: var(--main-text-color);
+    text-align: center;
+    margin-top: 20px;
+    background-color: color-mix(in srgb, red 40%, blue 60%)
+}
+
+body{
+    background-color: var(--main-bg-color, white);
+    color: hsl(0, 0%, 20%);
+}
+
+main {
+    padding: 2rem;
+    margin: 30px;
+    font-size: 1.25em;
+    max-width: 100vw;
+    min-width: 300px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer {
+    margin: auto;
+    margin: 10px 20px 10px 20px;
+}
+  
+fieldset {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+nav {
+    padding: 10px 20px 10px 20px;
+}
+  
+section {
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+strong{
+    text-decoration: cornflowerblue underline;
+}
+
+details {
+    display: block;
+}
+span {
+    display: inline-block;
+}
+
+video {
+    width: 520px;
+    height: 240px;
+    max-width: 100%;
+    min-width: 280px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgba(178, 147, 245, 0.8);
+}
+
+img {
+    position: relative;
+}
+
+a:hover {
+    color: greenyellow;
+}
+button:active {
+    background-color: rgb(250, 147, 248);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+#media {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    justify-items: center;
+    align-self: start;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      background-color: #222;
+    }
+  
+    section {
+      margin: 1em 0.5em;
+    }
+  
+    #media {
+      grid-template-columns: 1fr;
+    }
+  
+    body {
+      font-size: 1rem;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    header h1 {
+      font-size: 1.2em;
+    }
+  
+    nav ul {
+      font-size: 0.9em;
+    }
+  
+    img {
+      height: auto;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}  
+
+.note {
+    background-color: rgb(255, 255, 58);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    accent-color: hotpink;
+}
+
+h1, h2 {
+    border-bottom: 2px solid #444;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+ul > li {
+    list-style-type: square;
+}
+
+h2 ~ p {
+    color: rgb(60, 122, 255);
+}
