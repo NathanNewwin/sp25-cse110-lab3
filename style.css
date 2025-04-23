@@ -33,7 +33,7 @@ h3{
     color: var(--main-text-color);
     text-align: center;
     margin-top: 20px;
-    background-color: color-mix(in srgb, red 40%, blue)
+    background-color: rgb(208, 147, 255)
 }
 
 body{
@@ -194,7 +194,7 @@ ul > li {
 }
 
 h2 ~ p {
-    color: rgb(60, 122, 255);
+    color: color-mix(in srgb,red 10%,blue 90%)
 }
 
 label + input {
