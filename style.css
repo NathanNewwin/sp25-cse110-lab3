@@ -10,8 +10,6 @@
     font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-
 h1{
     font-family: 'StarJedi', 'Orbitron', sans-serif;
     font-size: 2.5rem;
@@ -35,7 +33,7 @@ h3{
     color: var(--main-text-color);
     text-align: center;
     margin-top: 20px;
-    background-color: color-mix(in srgb, red 40%, blue 60%)
+    background-color: color-mix(in srgb, red 40%, blue)
 }
 
 body{
