@@ -4,7 +4,7 @@
 }
 /* Custom Font */
 @font-face {
-    font-family: 'CustomFont';
+    font-family: 'StarJedi';
     src: url('assets/Starjedi.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -13,7 +13,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
 
 h1{
-    font-family: 'Star Jedi', 'Orbitron', sans-serif;
+    font-family: 'StarJedi', 'Orbitron', sans-serif;
     font-size: 2.5rem;
     color: var(--main-text-color);
     text-align: center;
@@ -22,8 +22,7 @@ h1{
 }
 
 h2{
-    font-family: 'Star Jedi', 'Orbitron', sans-serif;
-    font-size: 1.5rem;
+    font-family: 'StarJedi', 'Orbitron', sans-serif;
     color: var(--main-text-color);
     text-align: center;
     margin-top: 20px;
@@ -31,7 +30,7 @@ h2{
 }
 
 h3{
-    font-family: 'Star Jedi', 'Orbitron', sans-serif;
+    font-family: 'StarJedi', 'Orbitron', sans-serif;
     font-size: 1.25rem;
     color: var(--main-text-color);
     text-align: center;
@@ -199,3 +198,21 @@ ul > li {
 h2 ~ p {
     color: rgb(60, 122, 255);
 }
+
+label + input {
+    border: 1px solid #888;
+}
+
+p.note {
+    font-size: 1.5rem;
+    color: darkred;
+}
+
+form:has(input[type="checkbox"]:checked) {
+    background-color: #e0ffe0;
+}
+
+nav ul li a {
+    color: grey
+}
+  
