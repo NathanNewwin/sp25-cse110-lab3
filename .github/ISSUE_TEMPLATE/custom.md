@@ -1,9 +1,9 @@
 ---
 name: Custom issue template
-about: Describe this issue template's purpose here.
+about: Additions
 title: ''
-labels: ''
-assignees: ''
+labels: enhancement
+assignees: NathanNewwin
 
 ---
 
